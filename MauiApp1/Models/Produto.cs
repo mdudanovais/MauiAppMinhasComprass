@@ -1,6 +1,6 @@
 ﻿using SQLite;
 
-namespace MauiApp1.Models
+namespace MauiAppMinhasComprass.Models
 {
     public class Produto
     {
