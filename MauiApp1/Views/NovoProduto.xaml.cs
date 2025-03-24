@@ -1,13 +1,13 @@
-using MauiAppMinhasComprass.Models;
+using MauiAppMinhasCompras.Models;
 
-namespace MauiApp1.Views;
+namespace MauiAppMinhasCompras.Views;
 
 public partial class NovoProduto : ContentPage
 {
-	public NovoProduto()
-	{
-		InitializeComponent();
-	}
+    public NovoProduto()
+    {
+        InitializeComponent();
+    }
 
     private async void ToolbarItem_Clicked(object sender, EventArgs e)
     {
@@ -26,7 +26,7 @@ public partial class NovoProduto : ContentPage
         }
         catch (Exception ex)
         {
-            await DisplayAlert("Ops", ex.Message, "OK");
+            await DisplayAlert("Ops", ex.Message, "Ok");
         }
     }
 }
