@@ -1,3 +1,4 @@
+using MauiApp1;
 using MauiAppMinhasCompras.Models;
 
 namespace MauiAppMinhasCompras.Views;
